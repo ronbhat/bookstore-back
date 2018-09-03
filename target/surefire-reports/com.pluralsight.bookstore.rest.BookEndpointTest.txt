@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.bookstore.rest.BookEndpointTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in com.pluralsight.bookstore.rest.BookEndpointTest
-com.pluralsight.bookstore.rest.BookEndpointTest  Time elapsed: 0.003 sec  <<< ERROR!
-java.lang.RuntimeException: Arquillian has previously been attempted initialized, but failed. See cause for previous exception
-Caused by: java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.IllegalArgumentException: No container or group found that match given qualifier: arquillian-wildfly-remote
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.809 sec - in com.pluralsight.bookstore.rest.BookEndpointTest

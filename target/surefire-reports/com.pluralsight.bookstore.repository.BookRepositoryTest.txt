@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.pluralsight.bookstore.repository.BookRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.924 sec <<< FAILURE! - in com.pluralsight.bookstore.repository.BookRepositoryTest
-com.pluralsight.bookstore.repository.BookRepositoryTest  Time elapsed: 0.922 sec  <<< ERROR!
-java.lang.RuntimeException: Could not create new instance of class org.jboss.arquillian.test.impl.EventTestRunnerAdaptor
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.IllegalArgumentException: No container or group found that match given qualifier: arquillian-wildfly-remote
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.999 sec - in com.pluralsight.bookstore.repository.BookRepositoryTest
